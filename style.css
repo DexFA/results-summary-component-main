@@ -88,12 +88,13 @@ main {
 
 .result .title {
   color: var(--Light-lavender);
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .result .circle {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
+  margin-top: 0.6rem;
   border-radius: 50%;
   background: linear-gradient(
     to bottom,
@@ -118,7 +119,7 @@ main {
 .result b {
   color: var(--White);
   font-size: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
 }
 
 .result .info {
@@ -144,6 +145,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  margin-top: 0.6rem;
   margin-bottom: 1.2rem;
 }
 
